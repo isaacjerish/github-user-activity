@@ -2,3 +2,4 @@ github-user-activity
 *.o
 github-user-activity/Resources/
 github-user-activity/Info.plist
+*.dSYM/
