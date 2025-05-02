@@ -1,5 +1,5 @@
-CC      := gcc
-CFLAGS  := -Wall -Wextra -Wpedantic -std=c++17 -g
+CXX     := g++
+CXXFLAGS:= -Wall -Wextra -Wpedantic -std=c++17 -g
 TARGET  := github-user-activity
 SRC     := main.cpp
 
@@ -8,7 +8,7 @@ SRC     := main.cpp
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CXX) $(CXXFLAGS) $^ -o $@
 
 run: $(TARGET)
 	./$(TARGET)
