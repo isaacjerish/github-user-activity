@@ -1,7 +1,7 @@
 CC      := gcc
-CFLAGS  := -Wall -Wextra -Wpedantic -std=c11 -g
+CFLAGS  := -Wall -Wextra -Wpedantic -std=c++17 -g
 TARGET  := github-user-activity
-SRC     := main.c
+SRC     := main.cpp
 
 .PHONY: all clean run
 
